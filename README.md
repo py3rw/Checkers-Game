@@ -44,3 +44,8 @@ checkers/
 ├── settings.py                # Houses theme and music preset dictionaries
 ├── startingscreen.py          # Entry point (Main menu GUI and settings config)
 └── game.py                    # Core checkers logic, board matrices, and loop
+
+### 🧩 Bonus Feature: Chess Notation Trainer
+Included in the repository is a standalone speed-training mini-game (`notation_trainer.py`) designed to help players master coordinate visualization (e.g., tracking locations like `e4`, `g6`, or `b2`).
+* **Interactive Challenges:** The console prompts you with a random coordinate. Your goal is to click the correct matching tile on the board as fast as possible.
+* **Smart Feedback Loop:** A correct click flashes the square **Green** and grows your point streak. A wrong click turns your mistake **Red**, flashes the actual answer **Green**, and displays a "Game Over" score overlay screen.
