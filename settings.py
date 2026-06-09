@@ -54,12 +54,12 @@ def preset_colors(choice):
 
 def preset_music(music_number): # random music I had downloaded for previous projects
     choices = {
-    1:"music/wethands.mp3",
-    2:"music/pigstep.mp3",
-    3:"music/cereal.mp3",
-    4:"music/chilllofi.mp3",
-    5:"music/mountains.mp3",
-    6:"music/clairedelune.mp3"
+    1:"wethands.mp3",
+    2:"pigstep.mp3",
+    3:"cereal.mp3",
+    4:"chilllofi.mp3",
+    5:"mountains.mp3",
+    6:"clairedelune.mp3"
     }
 
     # Looks up the number, defaults to "wethands.mp3" if the number isn't found
